@@ -22,8 +22,8 @@ public class EntryProcessor {
 
     private void drawCanvas(int w, int h) {
         canvas = new char[h + 2][w + 2];
-        for (int i = 0; i < canvas.length; i++) { //width
-            for (int j = 0; j < canvas[i].length; j++) { //height
+        for (int i = 0; i < canvas.length; i++) {
+            for (int j = 0; j < canvas[i].length; j++) {
                 if (i == 0 || i == canvas.length - 1) {
                     canvas[i][j] = '-';
                 } else if (j == 0 || j == canvas[i].length - 1) {
