@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import java.util.stream.IntStream;
 
 /**
- * Service to draw shapes based on user commands
+ * Entry Processor to draw shapes based on the input commands
  */
 @Slf4j
 public class EntryProcessor {
@@ -53,7 +53,6 @@ public class EntryProcessor {
         }
     }
 
-    //R 16 1 20 3
     private void drawRectangle(int x1, int y1, int x2, int y2) {
         if (isOutsideCanvas(x1, y1, x2, y2)) return;
 
