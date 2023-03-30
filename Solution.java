@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 @Slf4j
 public class Solution {
     public static void main(String[] args) {
-        log.info("Please enter following commands for drawing:\n" +
+        log.info("Please enter following commands to draw:\n" +
                 "Canvas: C w h\n" +
                 "Rectangle: R x1 y1 x2 y2\n" +
                 "Line: L x1 y1 x2 y2\n" +
